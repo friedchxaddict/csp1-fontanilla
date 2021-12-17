@@ -1,0 +1,18 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#background {
+	background-color: #FFEB99;
+}
+
+
+#landing {
+
+	background-image: url(./images/img_7515.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
