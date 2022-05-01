@@ -6,40 +6,39 @@
 	<title>Capstone-1-Fontanilla</title>
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Open+Sans&family=Poppins:ital@1&display=swap" rel="stylesheet">
-
-
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+	
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
 	<link rel="stylesheet" type="text/css" href="./index.css">
 
 </head>
 <body>
+
+	<div id="landing">
+		
 <!-- navbar -->
-		<nav class="navbar navbar-expand-lg navbar-light" id="navbar">
-		  <a class="navbar-brand text-white comic" href="#">Adrian Fontanilla</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<nav class="navbar navbar-expand-lg mb-5">
+		  <a class="navbar-brand newfont" id="navbar" href="#">Adrian Fontanilla</a>
+		  <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
 
 		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 		    <ul class="navbar-nav ml-auto">
 		      <li class="nav-item">
-		      	<a class="nav-link text-white" href="#aboutme">About Me</a>
+		      	<a class="nav-link" id="navbar" href="#aboutme">About Me</a>
 		      </li>	
 		      <li class="nav-item active">
-		        <a class="nav-link text-white" href="#projects">Projects<span class="sr-only">(current)</span></a>
+		        <a class="nav-link" id="navbar" href="#projects">Projects<span class="sr-only">(current)</span></a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link text-white" href="#tools">Tools</a>
+		        <a class="nav-link" id="navbar" href="#tools">Tools</a>
 		      </li>
 		     
 		     <li class="nav-item">
-		        <a class="nav-link text-white" href="#contact">Contact</a>
+		        <a class="nav-link" id="navbar" href="#contact">Contact</a>
 		      </li>
 		      
 		    </ul>
@@ -48,27 +47,31 @@
 		</nav>
 <!-- nav bar end -->
 
-		<div id="background" class="pb-5">
+<!-- Greeting -->
+
+		<div  class="pt-4">
 			
 			<!-- Landing -->
 
-			<div class="container-fluid py-3" id="landing">
-				<div class="container col-12 mx-auto">
-					<h1 class="my-5 pt-3 text-center comic" id="greeting">Hi, I'm Adrian</h1>
+			<div class="container-fluid my-5 py-3">
+				<div class="container col-12 mx-auto mt-5" id="animation">
+					<h1 class="col-12 col-md-6 offset-md-1 my-5 pt-3 text-center text-md-right newfont" id="greeting">Hi, I'm Adrian</h1>
 				</div>	
-				<div class="container col-12 col-md-5  typed-out mx-auto">
-					<p class="my-3 pt-3 text-center comic mobile" id="greeting2">  I Am A Full Stack Web Developer</p>
+				<div class="container col-12 mx-auto" id="animation2">
+					<p class="col-12 col-md-6 offset-md-1 my-3 pt-3 text-center text-md-right newfont mobile" id="greeting2">  I Am A Full Stack Web Developer</p>
 				</div>		
 			</div>	
-				
+		</div>	
+	
+	</div>			
 <!-- About Me -->
-
-			<div id="aboutme" class="row py-5 mr-0 pr-0 bio">
-				<div class="col-10 col-md-3 offset-1 offset-md-2">
+		<div id="background">
+			<div id="aboutme" class="row py-5 mr-0 pr-0 ">
+				<div class="col-10 col-md-3 offset-1 offset-md-2 text-center">
 					<img class="img-fluid  border border-dark rounded mt-4" src="./images/Landingphoto.JPG">
 				</div>
-				<div class="col-11 col-md-6 m-3">
-					<h2>About Me</h2>
+				<div class="col-11 col-md-6 m-3 bio">
+					<h1 class="title">About Me</h1>
 					<p>
 						I graduated from the University of Southern California as an opera singer and had a good stint working through the Chicago musical theater industry. Later on I would become the head bartender at an NYC institution where I got dubbed making the best martini south of Canal street.. or so my inebriated patrons would say. Currently I’ve finished coding boot camp and transitioning into the software development industry. I am loving the creative and design aspects of front-end development but I'm also fascinated the structures of back-end frameworks. In my spare time, I explore countries, cities and roads less travelled. I play beach volleyball, am obsessed with the ukulele and I make a mean boef bourgignon. 
 					</p>
@@ -81,9 +84,10 @@
 
 			<!-- My Projects -->
 
-			<div class="container-fluid">
+			<div>
+				<div>
+					<h1 id="projects" class="title col-12 text-center mx-auto mb-5 pt-5">Projects</h1>
 				
-				<h2 id="projects" class="col-12 text-center mx-auto mb-5 pt-5">Projects</h2>
 				<div id="carouselExampleIndicators" class="col-12 col-md-5 mx-auto mb-4 border border-dark rounded py-3 bg-white carousel slide" data-ride="carousel">
 				  <ol class="carousel-indicators">
 				    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -117,11 +121,14 @@
 				  </a>
 				</div>
 
+					
+				</div>
+				
 				<br>
-
+				
 		<!-- Tools section -->
 				<div class="my-4" id="tools">
-					<h2 id="tools" class="text-center mb-4">Tools I Use</h2>
+					<h1 id="tools" class="title text-center mb-4">Tools I Use</h1>
 					<div class="d-flex flex-row flex-wrap justify-content-center">
 						<img width="80" src="./images/logo-html5.png">
 						<img width="80" src="./images/logo-css3.png">
@@ -141,11 +148,11 @@
 				</div>
 			<!-- Contacts -->
 
-				<h3  id="contact" class="text-center my-5 pt-3">Contact Me</h3>
-				<div class="row">
-					<div class="col-12 col-md-4 mx-auto">
+				<h1 id="contact" class="title text-center my-5 pt-3">Contact Me</h1>
+				<div class="row mx-auto">
+					<div class="col-11 col-md-4 mx-auto">
 					
-						<form>
+						<form action="https://formspree.io/adrianfontanilla@gmail.com" method="POST">
 							<div class="form-group">
 								<label for="txt-username">Name</label>
 								<input type="text" name="name" id="txt-username"
@@ -158,25 +165,29 @@
 							</div>
 							<div class="form-group">
 								<label for="txt-message">Message:</label>
-								<textarea class="form-control" id="txt-message" rows="3"></textarea>
+								<textarea class="form-control" id="txt-message" name="user_message" rows="3"></textarea>
 							</div>
 							<button type="submit" class="btn btn-block btn-outline-light">Submit</button>
 							<button type="reset" class="btn btn-block btn-outline-light">Reset</button>
+
+							<input type="hidden" name="_subject" value="New submission from contact form"/>
 						</form>
 					</div>
 
 					
 				</div>
-				<div class="row mt-4 mx-auto">	
-					<div class="col-4 col-md-1 mx-auto img-fluid">
+				<div class="row mt-4 pb-4 mx-auto justify-content-center">	
+					<div class="col-4 col-md-2 mx-auto text-center">
 						<a href="https://www.facebook.com/adrian.fontanilla.3">
-							<img class="img-fluid facebook border border-light rounded" src="./images/124010.png">
+							<img class="justify-content-center" width="60" src="./images/facebook-logo.PNG">
 						</a>
 					</div>
 				</div>
 				
 			</div>
+		
 		</div>
+	
 
 	<footer class="p-2">
 		<p class="text-center text-white">Adrian Fontanilla</p>

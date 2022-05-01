@@ -2,32 +2,48 @@
 * {
 	margin: 0;
 	padding: 0;
+	font-family: oswald;
 }
 
-.comic {
-	font-family: bangers;
+.newfont {
+	font-family: oswald;
+
 	
 }
 
 #background {
-	background-color: #005ab2;
+	background-color: #36514c;
 }
 
 #navbar {
-	background-color: red;
+	color: #b35340;
+	font-family: oswald;
+	font-weight: bold;
+	font-size: 26px;
+	
 }
+
+.custom-toggler.navbar-toggler {
+            border-color: #b35340;
+        }
+        /* Setting the stroke to green using rgb values (0, 128, 0) */
+          
+        .custom-toggler .navbar-toggler-icon {
+            background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(179, 83, 64, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        }
 
 #landing {
 	position: relative;
-	height: 500px;
 	align-items: center;
 	justify-content: center;
+	height: 750px;
 	
 }
 
 #landing::before {
 	content: "";
-	background-image: url(./images/maniladawn.JPG);
+	background-image: url(./images/hut-roof-copy.JPG);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -36,6 +52,8 @@
 	right: 0px;
 	left: 0px;
 	bottom: 0px;
+	height: 750px;
+
 	
 
 }
@@ -43,21 +61,44 @@
 #greeting {
 	position: relative;
 	font-weight: bold;
-	font-size: 80px;
-	color: red;
-	text-shadow: 2px 2px white;
+	font-size: 100px;
+	color: #d6dde2;
+		
 }
 
 #greeting2 {
 	position: relative;
 	font-weight: bold;
-	text-shadow: 2px 2px white;
-	color: red;
+	color: #d6dde2;
+	
+	
+}
+
+#animation {
+	position: relative;
+	animation-name: hi;
+	animation-duration: 1s;
+}
+
+@keyframes hi {
+	0% 	{left: 800px; top: 0px;}
+	100% 	{left: 0px; top: 0px;}
+}
+
+#animation2 {
+	position: relative;
+	animation-name: web;
+	animation-duration: 1s;
+	
+}
+
+@keyframes web {
+	0% 	{left: -800px; top: 0px;}
+	100%	{left: 0px; top: 0px;}
 }
 
 
-
-.typed-out{
+/*.typed-out{
       overflow: hidden;
       border-right: .15em red;
       white-space: nowrap;
@@ -65,7 +106,7 @@
       typing 5s steps(40, end) forwards;
       font-size: 1.6rem;
       width: 0;
-}
+}*/
 
 @media only screen and (min-width: 769px) {
 	p.mobile {
@@ -98,25 +139,29 @@ html {
 	scroll-behavior: smooth;
 } 
 
-h2, h3, h4 {
+.title {
 
-	color: red;
-	font-family: bangers;
-	text-shadow: 2px 2px white
+	color: #b35340;
+	font-family: oswald;
+	font-weight: 600;
+	
 }
 
 p {
 	color: white;
+	font-family: oswald;
 }
+
+
+
 
 footer {
-	background-color: red;
+	background-color:#b35340;
 
 }
 
-.facebook {
-	background-color: white;
-}
+
+
 
 
 
