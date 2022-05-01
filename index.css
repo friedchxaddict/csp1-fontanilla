@@ -43,7 +43,7 @@
 
 #landing::before {
 	content: "";
-	background-image: url(./images/hut-roof-copy.JPG);
+	background-image: url(./images/hut-roof-copy.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
