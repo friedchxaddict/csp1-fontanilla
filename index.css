@@ -19,9 +19,11 @@
 	color: #b35340;
 	font-family: oswald;
 	font-weight: bold;
-	font-size: 26px;
+	font-size: 23px;
 	
 }
+
+
 
 .custom-toggler.navbar-toggler {
             border-color: #b35340;
@@ -37,7 +39,7 @@
 	position: relative;
 	align-items: center;
 	justify-content: center;
-	height: 750px;
+	height: 800px;
 	
 }
 
@@ -52,7 +54,7 @@
 	right: 0px;
 	left: 0px;
 	bottom: 0px;
-	height: 750px;
+	height: 800px;
 
 	
 
@@ -78,6 +80,8 @@
 	position: relative;
 	animation-name: hi;
 	animation-duration: 1s;
+	
+	
 }
 
 @keyframes hi {
@@ -89,6 +93,7 @@
 	position: relative;
 	animation-name: web;
 	animation-duration: 2s;
+	
 	
 }
 
@@ -159,7 +164,6 @@ footer {
 	background-color:#b35340;
 
 }
-
 
 
 
