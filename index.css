@@ -12,7 +12,7 @@
 }
 
 #background {
-	background-color: black;
+	background-color: #202a33;
 }
 
 #navbar {
@@ -20,6 +20,7 @@
 	font-family: oswald;
 	font-weight: bold;
 	font-size: 23px;
+	text-shadow: 1px 1px 2px black ;
 	
 }
 
@@ -45,7 +46,7 @@
 
 #landing::before {
 	content: "";
-	background-image: url(./images/tokyo-stars.jpg);
+	background-image: url(./images/microchip-newyork.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -54,7 +55,7 @@
 	right: 0px;
 	left: 0px;
 	bottom: 0px;
-	height: 800px;
+	height: 850px;
 
 	
 
@@ -65,6 +66,7 @@
 	font-weight: bold;
 	font-size: 100px;
 	color: #d6dde2;
+	text-shadow: 2px 2px 2px black;
 		
 }
 
@@ -72,7 +74,7 @@
 	position: relative;
 	font-weight: bold;
 	color: #d6dde2;
-	
+	text-shadow: 2px 2px 2px black;
 	
 }
 
@@ -147,11 +149,13 @@ p {
 	font-family: oswald;
 }
 
-
+#headshot {
+	border-radius: 10px;
+}
 
 
 footer {
-	background-color: #0059b3;
+	background-color: #748b99;
 }
 
 
