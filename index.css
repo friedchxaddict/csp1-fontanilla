@@ -1,167 +1,161 @@
-
 * {
-	margin: 0;
-	padding: 0;
-	font-family: oswald;
+  margin: 0;
+  padding: 0;
+  font-family: oswald;
 }
 
 .newfont {
-	font-family: oswald;
-
-	
+  font-family: oswald;
 }
 
 #background {
-	background-color: #202a33;
+  background-color: #202a33;
 }
 
 #navbar {
-	color: #d6dde2;
-	font-family: oswald;
-	font-weight: bold;
-	font-size: 23px;
-	text-shadow: 1px 1px 2px black ;
-	
+  color: #d6dde2;
+  font-family: oswald;
+  font-weight: bold;
+  font-size: 23px;
+  text-shadow: 1px 1px 2px black;
 }
 
-
-
 .custom-toggler.navbar-toggler {
-            border-color: #b35340;
-        }
-        /* Setting the stroke to green using rgb values (0, 128, 0) */
-          
-        .custom-toggler .navbar-toggler-icon {
-            background-image: url(
-"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(179, 83, 64, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-        }
+  border-color: #b35340;
+}
+/* Setting the stroke to green using rgb values (0, 128, 0) */
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(179, 83, 64, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
 
 #landing {
-	position: relative;
-	align-items: center;
-	justify-content: center;
-	height: 800px;
-	
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 800px;
 }
 
 #landing::before {
-	content: "";
-	background-image: url(./images/microchip-newyork.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	position:  absolute;
-	top: 0px;
-	right: 0px;
-	left: 0px;
-	bottom: 0px;
-	height: 850px;
-
-	
-
+  content: "";
+  background-image: url(./images/microchip-newyork.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  height: 850px;
 }
 
 #greeting {
-	position: relative;
-	font-weight: bold;
-	font-size: 100px;
-	color: #d6dde2;
-	text-shadow: 2px 2px 2px black;
-		
+  position: relative;
+  font-weight: bold;
+  font-size: 100px;
+  color: #d6dde2;
+  text-shadow: 2px 2px 2px black;
 }
 
 #greeting2 {
-	position: relative;
-	font-weight: bold;
-	color: #d6dde2;
-	text-shadow: 2px 2px 2px black;
-	
+  position: relative;
+  font-weight: bold;
+  color: #d6dde2;
+  text-shadow: 2px 2px 2px black;
 }
 
 #animation {
-	position: relative;
-	animation-name: hi;
-	animation-duration: 1s;
-	
-	
+  position: relative;
+  animation-name: hi;
+  animation-duration: 1s;
 }
 
 @keyframes hi {
-	0% 	{left: 800px; top: 0px;}
-	100% 	{left: 0px; top: 0px;}
+  0% {
+    left: 800px;
+    top: 0px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
 }
 
 #animation2 {
-	position: relative;
-	animation-name: web;
-	animation-duration: 2s;
-	
-	
+  position: relative;
+  animation-name: web;
+  animation-duration: 2s;
 }
 
 @keyframes web {
-	0% 	{left: -800px; top: 0px;}
-	100%	{left: 0px; top: 0px;}
+  0% {
+    left: -800px;
+    top: 0px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
 }
 
-
 @media only screen and (min-width: 769px) {
-	p.mobile {
-		font-size: 35px;
-
-	}
+  p.mobile {
+    font-size: 35px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-	p.mobile {
-		font-size: 20px;
-	}
+  p.mobile {
+    font-size: 20px;
+  }
 }
 
 @media only screen and (max-width: 425px) {
-	div.bio {
-		text-align: center;
-
-	}
+  div.bio {
+    text-align: center;
+  }
 }
 
 @keyframes typing {
-      from { width: 0 }
-      to { width: 100% }
-    }
-    
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
 
 html {
-
-	scroll-behavior: smooth;
-} 
+  scroll-behavior: smooth;
+}
 
 .title {
-
-	color: #d6dde2;
-	font-family: oswald;
-	font-weight: 600;
-	
+  color: #d6dde2;
+  font-family: oswald;
+  font-weight: 600;
 }
 
 p {
-	color: white;
-	font-family: oswald;
+  color: white;
+  font-family: oswald;
 }
 
 #headshot {
-	border-radius: 10px;
+  border-radius: 10px;
 }
-
 
 footer {
-	background-color: #748b99;
+  background-color: #748b99;
 }
 
+.tag {
+  opacity: 0;
+  transform: translate(0, 10vh);
+  transition: all 1.5s;
+}
 
-
-
-
-
-
-
+.tag.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
