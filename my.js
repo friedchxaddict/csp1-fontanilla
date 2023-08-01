@@ -3,8 +3,6 @@ $(document).on("scroll", function () {
   var pageBottom = pageTop + $(window).height();
   var tags = $(".tag");
 
-  console.log("hello hello hello");
-
   for (var i = 0; i < tags.length; i++) {
     var tag = tags[i];
 
