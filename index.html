@@ -37,7 +37,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="burger-menu collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link" id="navbar" href="#aboutme">About Me</a>
@@ -61,10 +61,10 @@
 
       <!-- Greeting -->
 
-      <div class="pt-3">
+      <div class="intro pt-3">
         <!-- Landing -->
 
-        <div class="container-fluid my-5 py-3">
+        <div class="greeting-parent container-fluid my-5 py-3">
           <div class="container col-12 mx-auto mt-5" id="animation">
             <h1
               class="col-12 col-md-12 my-5 pt-3 text-center text-md-center newfont"
@@ -84,8 +84,8 @@
     </div>
     <!-- About Me -->
     <div id="background" class="pt-5">
-      <div id="aboutme" class="row py-5">
-        <div class="tag col-8 col-md-3 offset-2 offset-md-2 text-center">
+      <div id="aboutme" class="row pt-5 pb-2 mx-auto">
+        <div class="tag col-8 col-md-3 offset-2 offset-md-2 mb-4 text-center">
           <img
             id="headshot"
             class="img-fluid border border-dark mt-4"
@@ -243,7 +243,8 @@
                   name="name"
                   id="txt-username"
                   placeholder="Enter Full Name"
-                  class="form-control" />
+                  class="form-control"
+                  autocomplete="off" />
               </div>
               <div class="form-group">
                 <label for="txt-email">Email:</label>
@@ -252,7 +253,8 @@
                   name="email"
                   id="txt-email"
                   placeholder="Enter Email"
-                  class="form-control" />
+                  class="form-control"
+                  autocomplete="off" />
               </div>
               <div class="form-group mb-4">
                 <label for="txt-message">Message:</label>
@@ -260,7 +262,8 @@
                   class="form-control"
                   id="txt-message"
                   name="user_message"
-                  rows="3"></textarea>
+                  rows="3"
+                  autocomplete="off"></textarea>
               </div>
               <button type="submit" class="btn btn-block btn-outline-light">
                 Submit
